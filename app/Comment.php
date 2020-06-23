@@ -20,4 +20,9 @@ class Comment extends Model
     {
         return $this->belongsTo('App\Post');
     }
+    // InfoComments (one to one)
+    public function infoComment()
+    {
+        return $this->hasOne('App\InfoComment');
+    }
 }

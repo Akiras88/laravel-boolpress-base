@@ -25,3 +25,6 @@ Route::resource('posts', 'PostController');
 
 //comments
 Route::resource('comments', 'CommentController');
+
+//Infocomments
+Route::resource('infocomments', 'InfoCommentController');

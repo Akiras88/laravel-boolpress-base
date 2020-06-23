@@ -22,3 +22,6 @@ Route::resource('users', 'UserController');
 
 // Posts
 Route::resource('posts', 'PostController');
+
+//comments
+Route::resource('comments', 'CommentController');
